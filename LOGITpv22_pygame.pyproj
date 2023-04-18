@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a06169c7-48bf-4626-b713-6ce4d265dda3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>1.osa_akna_loomine.py</StartupFile>
+    <StartupFile>3.osa_Animerimine.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,9 +22,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="1.osa_akna_loomine.py" />
+    <Compile Include="2.osa_Suvalisedkujundid.py" />
+    <Compile Include="Kontroll.py" />
     <Compile Include="LOGITpv22_pygame.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="3.osa_Animerimine.py" />
     <Content Include="bee.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
