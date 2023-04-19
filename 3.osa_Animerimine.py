@@ -17,10 +17,10 @@ pygame.display.set_caption("Animatsion")
 ekraan.fill(roheline)
 kell=pygame.time.Clock()
 mesilane=pygame.image.load("bee.png")
-#posX=X-mesilane.get_rect().width
-#posY=Y-mesilane.get_rect().height
-posX=0
-posY=0
+posX=X-mesilane.get_rect().width
+posY=Y-mesilane.get_rect().height
+#posX=0
+#posY=0
 lõpp=False
 sammX=0
 sammY=0
@@ -36,7 +36,7 @@ while not lõpp:
 	if posX==X-mesilane.get_rect().width and posY<=Y-mesilane.get_rect().height:	
 		sammX=0
 		sammY=1
-	if posX<=X-mesilane.get_rect().width and posY==Y-mesilane.get_rect().height:		
+	if posX<=X-mesilane.get_rect().width and posY==Y-mesilane.get_rect().height:	
 		sammX=1
 		sammY=0
 		sammX=-sammX
